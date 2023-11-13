@@ -1,0 +1,47 @@
+.cardsCollection{
+    margin: 15px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vh;
+}
+
+.card {
+    width: 100px;
+    height: 150px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card-value {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-suit {
+    font-size: 20px;
+}
+
+.card {
+    color: #333;
+}
+
+.card.red{
+    color: #ff4500;
+}
+
+.card:hover {
+    scale: 1.1;
+}
